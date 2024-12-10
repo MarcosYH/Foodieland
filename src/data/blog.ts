@@ -63,7 +63,7 @@ const tasty = [
     name: "By Andreas Paula",
   },
   {
-    title: " Pork and Chive Chinese Dumplings",
+    title: "Pork and Chive Chinese Dumplings",
     image: images.pork,
     name: "Andreas Paula",
   },
