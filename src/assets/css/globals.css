@@ -1,0 +1,187 @@
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4.841rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.631rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.41rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5c6466;
+}
+
+ul {
+  list-style: none;
+  li {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+    margin-right: 1rem;
+  }
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  background-color: #f5a623;
+  border: none;
+  border-radius: 16px;
+  padding: 1.25rem 1.5rem;
+}
+
+.background-rice {
+  background: linear-gradient(
+    0deg,
+    rgba(112, 130, 70, 0.1) 0%,
+    rgba(112, 130, 70, 0) 100%
+  );
+}
+.background-vegan {
+  background: linear-gradient(
+    0deg,
+    rgba(108, 198, 63, 0.1) 0%,
+    rgba(108, 198, 63, 0) 100%
+  );
+}
+.background-meat {
+  background: linear-gradient(
+    0deg,
+    rgba(204, 38, 27, 0.1) 0%,
+    rgba(204, 38, 27, 0) 100%
+  );
+}
+.background-dessert {
+  background: linear-gradient(
+    0deg,
+    rgba(240, 158, 0, 0.1) 0%,
+    rgba(240, 158, 0, 0) 100%
+  );
+}
+.background-lunch {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.background-chocolate {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.bg-card {
+  background: linear-gradient(
+    0deg,
+    rgba(231, 249, 253, 1) 0%,
+    rgba(231, 249, 253, 0) 100%
+  );
+}
+
+.loader div {
+  animation-duration: 0.5s;
+}
+
+.loader div:first-child {
+  animation-delay: 0.1s;
+}
+
+.loader div:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.loader div:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+@media (max-width: 1150px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 4.341rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 3.131rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 2.41rem;
+  }
+
+  button {
+    font-size: 0.875rem;
+    padding: 1rem 1.25rem;
+  }
+}
+
+@media (max-width: 1190px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3.841rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2.631rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 3.341rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2.631rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    line-height: 2.41rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  ul {
+    li {
+      font-size: 0.75rem;
+    }
+  }
+
+  button {
+    font-size: 0.75rem;
+    padding: 0.75rem 1rem;
+  }
+}
