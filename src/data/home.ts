@@ -13,10 +13,10 @@ const menuItem = [
     title: "Blog",
     link: "blog",
   },
-  // {
-  //   title: "Contact",
-  //   link: "#",
-  // },
+  {
+    title: "Contact",
+    link: "/contact",
+  },
   // {
   //   title: "About us",
   //   link: "#",
