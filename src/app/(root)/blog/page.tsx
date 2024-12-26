@@ -49,12 +49,12 @@ const PageBlog = () => {
                 <Image
                   src={item.image}
                   alt="noodle"
-                  className="md:mr-4 rounded-3xl max-h-[200px] max-w-[290px] mx-auto"
+                  className="md:mr-4 rounded-3xl max-h-[170px] max-w-[270px] mx-auto"
                 />
                 <div className=" text-center md:text-left">
                   <h3 className="text-[1.5rem]">{item.title}</h3>
                   <p className="mt-4">{item.describe}</p>
-                  <div className="flex justify-center md:justify-start items-center my-8">
+                  <div className="flex justify-center md:justify-start items-center my-4">
                     <div className="inline-flex items-center pr-6 border-r-2">
                       <div className="w-[50px] h-[50px] bg-[#726d6d] rounded-full mr-4"></div>
                       <span className="font-semibold">{item.name}</span>

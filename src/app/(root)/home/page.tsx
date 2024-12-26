@@ -51,7 +51,7 @@ const PageHome = () => {
           <Image
             src={images.badge}
             alt="badge"
-            className=" absolute right-[43%] top-[8rem] hidden lg:block"
+            className="absolute right-[43%] top-[8rem] hidden lg:block"
           />
           <div className="w-full lg:w-1/2 hidden lg:block">
             <Image
